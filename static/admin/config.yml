@@ -8,12 +8,17 @@ public_folder: "/images"
 
 locale: 'fr'
 
+localbackend: true
+
 collections:
   - name: "posts"
     label: "Articles"
     folder: "content/posts"
     create: true
     slug: "{{slug}}"
+    encoding: "ascii"
+    clean_accents: true
+    sanitize_replacement: "-"
     fields:
       - {label: "Draft", name: draft, widget: "hidden", default: false}
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
