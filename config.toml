@@ -1,0 +1,3 @@
+theme = "beautifulhugo"
+DefaultContentLanguage = "fr"
+baseURL = "https://example.org/"
