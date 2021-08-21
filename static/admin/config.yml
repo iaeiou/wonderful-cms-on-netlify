@@ -19,7 +19,7 @@ backend:
     deleteMedia: media - Delete “{{path}}”
     openAuthoring: '{{message}}'
 
-# Hide preview panel in backend editor
+# Hide preview panel in backend editor 
 editor:
   preview: false
 
