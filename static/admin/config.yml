@@ -8,8 +8,6 @@ backend:
   #      - https://preview-auth-doc--netlify-cms-www.netlify.app/docs/authentication-backends/
   accept_roles: #optional - accepts all users if left out
       - admin
-      - editor
-      - author
   commit_messages:
     create: posts - Create {{collection}} “{{slug}}”
     update: posts - Update {{collection}} “{{slug}}”
