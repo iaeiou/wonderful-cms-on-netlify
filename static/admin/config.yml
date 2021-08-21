@@ -38,11 +38,9 @@ localbackend: true
 
 collections:
   - name: "posts"
-    editor:
-      preview: false
-      publish: false
-    author:
-      publish: false
+    # A collection-specific media folder
+    media_folder: ''
+    public_folder: ''
     label: "Articles"
     folder: "content/posts"
     create: true
