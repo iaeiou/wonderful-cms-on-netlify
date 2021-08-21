@@ -36,7 +36,8 @@ collections:
   - name: "posts"
     editor:
       preview: false
-    publish: false
+    author:
+      publish: false
     label: "Articles"
     folder: "content/posts"
     create: true
