@@ -10,8 +10,8 @@ backend:
   accept_roles: #optional - accepts all users if left out
       - admin
       - editor
-  publish_mode: editorial_workflow
-  squash_merges: true # See https://www.netlifycms.org/docs/beta-features/#squash-merge-github-pull-requests
+publish_mode: editorial_workflow
+# squash_merges: true # See https://www.netlifycms.org/docs/beta-features/#squash-merge-github-pull-requests
 
   commit_messages:
     create: posts - Create {{collection}} “{{slug}}”
