@@ -1,5 +1,3 @@
-# See https://www.netlifycms.org/docs/beta-features/
-
 backend:
   name: git-gateway
   branch: master
@@ -17,6 +15,7 @@ backend:
     uploadMedia: media - Upload “{{path}}”
     deleteMedia: media - Delete “{{path}}”
     openAuthoring: '{{message}}'
+# Doc: https://www.netlifycms.org/docs/beta-features/
 
 publish_mode: editorial_workflow
 # squash_merges: true # See https://www.netlifycms.org/docs/beta-features/#squash-merge-github-pull-requests
