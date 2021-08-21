@@ -1,14 +1,27 @@
+# See https://www.netlifycms.org/docs/beta-features/
+
 backend:
   name: git-gateway
   branch: master
   repo: github.com/iaeiou/wonderful-cms-on-netlify
+  commit_messages:
+    create: posts - Create {{collection}} “{{slug}}”
+    update: posts - Update {{collection}} “{{slug}}”
+    delete: posts - Delete {{collection}} “{{slug}}”
+    uploadMedia: media - Upload “{{path}}”
+    deleteMedia: media - Delete “{{path}}”
+    openAuthoring: '{{message}}'
 
 media_folder: "static/images"
 public_folder: "/images"
+# To limit file size, see https://www.netlifycms.org/docs/beta-features/#image-widget-file-size-limit
 
 locale: 'fr'
 
-publish_mode: editorial_workflow
+# Multi author edition
+# Ref: https://www.netlifycms.org/docs/configuration-options/#publish-mode
+#publish_mode: editorial_workflow
+#squash_merges: true # See https://www.netlifycms.org/docs/beta-features/#squash-merge-github-pull-requests
 
 localbackend: true
 
