@@ -15,11 +15,12 @@ backend:
 editor:
   preview: false
 
-    
-# Doc: https://www.netlifycms.org/docs/beta-features/
-
+# Editorial workflow
 # publish_mode: editorial_workflow
-# squash_merges: true # See https://www.netlifycms.org/docs/beta-features/#squash-merge-github-pull-requests
+# squash_merges: true
+# Ref:  - https://www.netlifycms.org/docs/configuration-options/#publish-mode
+#       - https://www.netlifycms.org/docs/beta-features/
+#       - https://www.netlifycms.org/docs/beta-features/#squash-merge-github-pull-requests
 
 media_folder: "static/images"
 public_folder: "/images"
