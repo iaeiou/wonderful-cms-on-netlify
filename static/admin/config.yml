@@ -1,7 +1,7 @@
 backend:
 
   name: git-gateway
-  branch: master
+  # branch: master
   repo: github.com/iaeiou/wonderful-cms-on-netlify
   # Multi author edition
   # Ref: - https://www.netlifycms.org/docs/configuration-options/#publish-mode
