@@ -10,6 +10,7 @@ backend:
       - admin
       # - editor
       # - author
+      #test
   commit_messages:
     create: posts - Create {{collection}} “{{slug}}”
     update: posts - Update {{collection}} “{{slug}}”
