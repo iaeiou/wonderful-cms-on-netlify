@@ -44,7 +44,7 @@ collections:
     clean_accents: true
     sanitize_replacement: "-"
     fields:
-      - {label: "Draft", name: draft, widget: "hidden", default: false}
+      - {label: "Draft", name: draft, widget: "hidden", default: true}
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Date de publication", name: "date", widget: "datetime"}
