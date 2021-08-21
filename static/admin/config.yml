@@ -8,6 +8,8 @@ public_folder: "/images"
 
 locale: 'fr'
 
+publish_mode: editorial_workflow
+
 localbackend: true
 
 collections:
