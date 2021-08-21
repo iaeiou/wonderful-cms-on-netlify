@@ -19,9 +19,13 @@ public_folder: "/images"
 locale: 'fr'
 
 # Multi author edition
-# Ref: https://www.netlifycms.org/docs/configuration-options/#publish-mode
-#publish_mode: editorial_workflow
-#squash_merges: true # See https://www.netlifycms.org/docs/beta-features/#squash-merge-github-pull-requests
+# Ref: - https://www.netlifycms.org/docs/configuration-options/#publish-mode
+#      - https://preview-auth-doc--netlify-cms-www.netlify.app/docs/authentication-backends/
+accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
+publish_mode: editorial_workflow
+squash_merges: true # See https://www.netlifycms.org/docs/beta-features/#squash-merge-github-pull-requests
 
 localbackend: true
 
