@@ -1,8 +1,16 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Manager</title>
+  <title>Edition</title>
   <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  <!-- Set Locale -->
+  <script type="text/javascript">
+    window.onload = function() {
+      netlifyIdentity.setLocale('fr')
+    }
+  </script> 
+  
 </head>
 <body>
 <script src="https://unpkg.com/netlify-cms/dist/netlify-cms.js"></script>
