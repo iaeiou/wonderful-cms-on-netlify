@@ -2,6 +2,23 @@ backend:
   name: git-gateway
   branch: master
   repo: github.com/iaeiou/wonderful-cms-on-netlify
+  # Multi author edition
+  # Ref: - https://www.netlifycms.org/docs/configuration-options/#publish-mode
+  #      - https://preview-auth-doc--netlify-cms-www.netlify.app/docs/authentication-backends/
+  accept_roles: #optional - accepts all users if left out
+      - admin
+      - editor
+  commit_messages:
+    create: posts - Create {{collection}} “{{slug}}”
+    update: posts - Update {{collection}} “{{slug}}”
+    delete: posts - Delete {{collection}} “{{slug}}”
+    uploadMedia: media - Upload “{{path}}”
+    deleteMedia: media - Delete “{{path}}”
+    openAuthoring: '{{message}}'
+
+publish_mode: editorial_workflow
+# squash_merges: true # See https://www.netlifycms.org/docs/beta-features/#squash-merge-github-pull-requests
+
 
 media_folder: "static/images"
 public_folder: "/images"
