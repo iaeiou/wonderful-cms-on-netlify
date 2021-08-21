@@ -18,8 +18,9 @@ backend:
     deleteMedia: media - Delete “{{path}}”
     openAuthoring: '{{message}}'
 
- # Hide preview panel in backend editor
-preview: false
+# Hide preview panel in backend editor
+editor:
+  preview: false
 
     
 # Doc: https://www.netlifycms.org/docs/beta-features/
