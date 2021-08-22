@@ -28,7 +28,6 @@ public_folder: "/images"
 
 locale: 'fr'
 
-
 localbackend: true
 
 collections:
