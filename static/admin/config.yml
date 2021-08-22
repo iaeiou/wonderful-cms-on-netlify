@@ -46,7 +46,8 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Titre", name: "title", widget: "string"}
-      - {label: "Brouillon", name: "draft",  widget: "boolean", default: true}
+      # Not required when editorial_workflow is activated (and hides the Deploy preview link)
+      # - {label: "Brouillon", name: "draft",  widget: "boolean", default: true}
       - {label: "Date de publication", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Article", name: "body", widget: "markdown"}
