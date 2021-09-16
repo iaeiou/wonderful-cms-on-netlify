@@ -13,11 +13,11 @@ backend:
 
 # Hide preview panel in editor 
 editor:
-  preview: false
+  preview: true
 
 # Editorial workflow
-publish_mode: editorial_workflow
-squash_merges: true
+#publish_mode: editorial_workflow
+#squash_merges: true
 # Ref:  - https://www.netlifycms.org/docs/configuration-options/#publish-mode
 #       - https://www.netlifycms.org/docs/beta-features/
 #       - https://www.netlifycms.org/docs/beta-features/#squash-merge-github-pull-requests
@@ -50,9 +50,9 @@ collections:
       - {label: "Date de publication", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Article", name: "body", widget: "markdown"}
-      - {label: "Gallery",
-          name: "galleryImages",
-          widget: "list",
-          summary: '{{fields.image}}',
-          field: {label: Image, name: image, widget: image}
-      }
+      #- {label: "Gallery",
+      #    name: "galleryImages",
+      #    widget: "list",
+      #    summary: '{{fields.image}}',
+      #    field: {label: Image, name: image, widget: image}
+      #}
