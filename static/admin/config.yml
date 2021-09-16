@@ -22,7 +22,7 @@ squash_merges: true
 #       - https://www.netlifycms.org/docs/beta-features/
 #       - https://www.netlifycms.org/docs/beta-features/#squash-merge-github-pull-requests
 
-media_folder: "static/images"
+media_folder: "../../static/images"
 public_folder: "/images"
 # To limit file size, see https://www.netlifycms.org/docs/beta-features/#image-widget-file-size-limit
 
