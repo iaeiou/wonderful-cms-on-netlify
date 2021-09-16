@@ -16,8 +16,8 @@ editor:
   preview: false
 
 # Editorial workflow
-publish_mode: editorial_workflow
-squash_merges: true
+# publish_mode: editorial_workflow
+# squash_merges: true
 # Ref:  - https://www.netlifycms.org/docs/configuration-options/#publish-mode
 #       - https://www.netlifycms.org/docs/beta-features/
 #       - https://www.netlifycms.org/docs/beta-features/#squash-merge-github-pull-requests
